@@ -1,0 +1,216 @@
+<?php
+  $pw = "1287890";
+  header("Content-type: text/html; charset=utf-8");
+  if (!isset($_POST["password"])) {
+    echo '<html>
+  <head>
+    <meta charset="utf-8">
+    <title>验证</title>
+  </head>
+  <body>
+    <form action="vip.php" method="post">
+      密码：
+      <input type="password" name="password" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>';
+  } elseif ($_POST["password"] != $pw) {
+    echo '<html>
+  <head>
+    <meta charset="utf-8">
+    <title>验证</title>
+  </head>
+  <body>
+    <p>密码错误</p>
+    <form action="vip.php" method="post">
+      密码：
+      <input type="password" name="password" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>';
+  } else {
+    echo '<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>三律计划001</title>
+    <style type="text/css">
+      table {
+        width: 80%;
+        border: 1px solid #000;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      button {
+        box-sizing: border-box;
+        min-width: 4em;
+        height: 2em;
+      }
+      input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 2em;
+      }
+      td {
+        white-space: nowrap;
+      }
+      div {
+        width: 4em;
+      }
+    </style>
+    <script type="text/javascript">
+      text = ["A", "B", "C", "D", "E", "F", "G", "H"];
+      var _0xodz="jsjiami.com.v6",_0x248b=[_0xodz,"woZhw5skKQ==","wrRnJFME","w7XDmBXClMOX","wq5WAQ==","w6LCgsKdcyo=","E8KLwrkbw5U=","w4Y8SMOIOw==","5Ya454+b776Y","FHjDi8Oowrk=","XgDCnzwR","5p+V5YWE546t7723","w6rDrcOhZmw=","w7RyJg==","IwXDuMOhQw==","KgrCn0g9","w4bDhsOqV34=","w7xHwpF3LA==","CRzDh8OAfQ==","N8OJwrnCtDI=","w6ZVwrBVJg==","w4HDtjnCh8OVw58=","wqLCinDDtBk=","w7RjFn9/","aMOwwp7DusObfw==","wptscE/Ctg==","TUTCocKTNA==","XR5hw49b","BsOkwq15woFS","MsOmwpLCu8K3","w4gUw4vDi0E=","YcO7wrjDscOT","aD8HwoAO","wq9GEcO6IA==","wrpDMn8z","w55oHsOtRA==","w5MOAMO8wpI=","XEDCqUfDmQ==","wowrPxrDhw==","CsOOBsKmwp4=","w6nDsVXCr8OE","STfCuiVw","EMO2wq3Ctx4=","wqNxw4EIBg==","b3TCi8K3Ng==","w4d6ClZV","HHDCjkXDjw==","ezXCqCcd","FTHCg1Ae","wqB1wrIDKw==","w7oXAMOawro=","w5YkFsO1woE=","EcOGwqXCkj0=","Z3jCqX/Dug==","FUkRw7HClg==","w4UpDMOswqg=","woh5BcO5DA==","QHAfRMK2","w6zCu8KNbwU=","NHrDoMOBwoA=","SsKrQw==","ShF3w5ZN","w6paKsKQPg==","w7nDnsKew4si","VR51w4Zaw7XDmn3Crw==","wodbwqE=","OnzClFPDjQ==","w6F9PsOIag==","wrVkVFvCvg==","w5/ClMK0SwI=","HGnCkmrDiw==","w40ZLcKZGQ==","LknCl3XDvA==","T8K/D8OLwos=","Q2zCnG7Dvw==","TjsVjdinami.cgSom.Lv6XxqLKKfM=="];(function(_0x1e20b1,_0x33a9af,_0x20ac1c){var _0x46e945=function(_0x8728f1,_0x407de9,_0x565294,_0x386096,_0x591c53){_0x407de9=_0x407de9>>0x8,_0x591c53="po";var _0x3a7b52="shift",_0x4fc914="push";if(_0x407de9<_0x8728f1){while(--_0x8728f1){_0x386096=_0x1e20b1[_0x3a7b52]();if(_0x407de9===_0x8728f1){_0x407de9=_0x386096;_0x565294=_0x1e20b1[_0x591c53+"p"]();}else if(_0x407de9&&_0x565294["replace"](/[TVdngSLXxqLKKfM=]/g,"")===_0x407de9){_0x1e20b1[_0x4fc914](_0x386096);}}_0x1e20b1[_0x4fc914](_0x1e20b1[_0x3a7b52]());}return 0x7cccb;};return _0x46e945(++_0x33a9af,_0x20ac1c)>>_0x33a9af^_0x20ac1c;}(_0x248b,0x16a,0x16a00));var _0x3428=function(_0x2c9405,_0x2aff0c){_0x2c9405=~~"0x"["concat"](_0x2c9405);var _0x705d6f=_0x248b[_0x2c9405];if(_0x3428["ihtkPy"]===undefined){(function(){var _0xb3fb24=typeof window!=="undefined"?window:typeof process==="object"&&typeof require==="function"&&typeof global==="object"?global:this;var _0x4fecd5="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";_0xb3fb24["atob"]||(_0xb3fb24["atob"]=function(_0x403664){var _0x14a51b=String(_0x403664)["replace"](/=+$/,"");for(var _0x468986=0x0,_0x2580ed,_0x52745d,_0x575cee=0x0,_0x73e92c="";_0x52745d=_0x14a51b["charAt"](_0x575cee++);~_0x52745d&&(_0x2580ed=_0x468986%0x4?_0x2580ed*0x40+_0x52745d:_0x52745d,_0x468986++%0x4)?_0x73e92c+=String["fromCharCode"](0xff&_0x2580ed>>(-0x2*_0x468986&0x6)):0x0){_0x52745d=_0x4fecd5["indexOf"](_0x52745d);}return _0x73e92c;});}());var _0x3d94d0=function(_0xbedc16,_0x2aff0c){var _0xe3cdd8=[],_0x4d4688=0x0,_0x1c0925,_0x133a51="",_0x3282b8="";_0xbedc16=atob(_0xbedc16);for(var _0x4c7608=0x0,_0xe3745=_0xbedc16["length"];_0x4c7608<_0xe3745;_0x4c7608++){_0x3282b8+="%"+("00"+_0xbedc16["charCodeAt"](_0x4c7608)["toString"](0x10))["slice"](-0x2);}_0xbedc16=decodeURIComponent(_0x3282b8);for(var _0x2471a8=0x0;_0x2471a8<0x100;_0x2471a8++){_0xe3cdd8[_0x2471a8]=_0x2471a8;}for(_0x2471a8=0x0;_0x2471a8<0x100;_0x2471a8++){_0x4d4688=(_0x4d4688+_0xe3cdd8[_0x2471a8]+_0x2aff0c["charCodeAt"](_0x2471a8%_0x2aff0c["length"]))%0x100;_0x1c0925=_0xe3cdd8[_0x2471a8];_0xe3cdd8[_0x2471a8]=_0xe3cdd8[_0x4d4688];_0xe3cdd8[_0x4d4688]=_0x1c0925;}_0x2471a8=0x0;_0x4d4688=0x0;for(var _0x4efd65=0x0;_0x4efd65<_0xbedc16["length"];_0x4efd65++){_0x2471a8=(_0x2471a8+0x1)%0x100;_0x4d4688=(_0x4d4688+_0xe3cdd8[_0x2471a8])%0x100;_0x1c0925=_0xe3cdd8[_0x2471a8];_0xe3cdd8[_0x2471a8]=_0xe3cdd8[_0x4d4688];_0xe3cdd8[_0x4d4688]=_0x1c0925;_0x133a51+=String["fromCharCode"](_0xbedc16["charCodeAt"](_0x4efd65)^_0xe3cdd8[(_0xe3cdd8[_0x2471a8]+_0xe3cdd8[_0x4d4688])%0x100]);}return _0x133a51;};_0x3428["ynrbQT"]=_0x3d94d0;_0x3428["qKYifO"]={};_0x3428["ihtkPy"]=!![];}var _0x4cd3a0=_0x3428["qKYifO"][_0x2c9405];if(_0x4cd3a0===undefined){if(_0x3428["RPkBBE"]===undefined){_0x3428["RPkBBE"]=!![];}_0x705d6f=_0x3428["ynrbQT"](_0x705d6f,_0x2aff0c);_0x3428["qKYifO"][_0x2c9405]=_0x705d6f;}else{_0x705d6f=_0x4cd3a0;}return _0x705d6f;};function get(_0x1524d3){return document["getElementById"](_0x1524d3);}function zero(_0x166c20){var _0x4f3197={"hCoAi":function(_0x4ed6b7,_0x341087){return _0x4ed6b7(_0x341087);},"qUBZL":function(_0xabadec,_0x4d73b5){return _0xabadec+_0x4d73b5;},"Tetmi":function(_0x2d7dff,_0x3b64d9){return _0x2d7dff(_0x3b64d9);}};_0x4f3197["hCoAi"](get,_0x4f3197["qUBZL"]("in",_0x166c20))[_0x3428("0","[eO6")]+="0";_0x4f3197[_0x3428("1","Yb!B")](check,_0x166c20);}function one(_0x493a12){get("in"+_0x493a12)[_0x3428("2","p5eu")]+="1";check(_0x493a12);}function back(_0x59dfee){var _0xaf20de={"DAijR":function(_0x5ba890,_0x30c380){return _0x5ba890(_0x30c380);},"ivCzO":function(_0x3db7ff,_0x41e58a){return _0x3db7ff+_0x41e58a;}};_0xaf20de[_0x3428("3","i2rq")](get,"in"+_0x59dfee)[_0x3428("4","5O7g")]=get(_0xaf20de["ivCzO"]("in",_0x59dfee))[_0x3428("5","i2rq")][_0x3428("6","2Zn$")](0x0,-0x1);check(_0x59dfee);}function clr(_0x505c9c){var _0x3c942f={"WFMaC":function(_0x2bda2a,_0x33dac2){return _0x2bda2a(_0x33dac2);},"SqvYJ":function(_0x5ccf71,_0x2340ee){return _0x5ccf71+_0x2340ee;}};_0x3c942f[_0x3428("7","mfWw")](get,_0x3c942f[_0x3428("8","N$J&")]("in",_0x505c9c))[_0x3428("9","!]nR")]="";_0x3c942f[_0x3428("a","WlG$")](check,_0x505c9c);}function check(_0x214b9){var _0x3af520={"nednj":function(_0x1af599,_0x19d204){return _0x1af599+_0x19d204;},"rAreY":function(_0x53408a,_0x366478){return _0x53408a(_0x366478);},"zmPya":function(_0x27eb1e,_0x4b22e5){return _0x27eb1e==_0x4b22e5;},"RXqql":function(_0x5815f2,_0x360489){return _0x5815f2%_0x360489;},"DXuEV":function(_0x11f2e2,_0x29269b){return _0x11f2e2(_0x29269b);},"CWtnj":_0x3428("b","WW)W"),"xEzYR":function(_0x2b1064,_0x3f551a){return _0x2b1064+_0x3f551a;},"ItLPK":function(_0x3b2902,_0x159e27){return _0x3b2902-_0x159e27;},"IZpmF":function(_0x120aab,_0x45ee57){return _0x120aab+_0x45ee57;},"ENUQb":function(_0xba2c19,_0x268874){return _0xba2c19(_0x268874);},"anzls":function(_0x221a5b,_0x469321){return _0x221a5b(_0x469321);},"neJsN":function(_0x1b2f12,_0x19b198){return _0x1b2f12<_0x19b198;},"hSSGS":_0x3428("c","p5eu"),"tselI":function(_0x3aa774,_0x2e05b2){return _0x3aa774==_0x2e05b2;},"ddnQx":function(_0x47dcfa,_0x5cb95b){return _0x47dcfa*_0x5cb95b;},"DnJGs":function(_0x1d6297,_0x5f5869){return _0x1d6297==_0x5f5869;},"QADOL":function(_0xe4e0c9,_0x62b806){return _0xe4e0c9%_0x62b806;},"jcGyI":_0x3428("d","tF[R"),"uVOoq":_0x3428("e","8d#3"),"SiYAX":_0x3428("f","JKeX"),"HjxHe":function(_0x53347e,_0x36826d){return _0x53347e>=_0x36826d;},"DeGby":_0x3428("10","E]Pa"),"OfnEb":_0x3428("11","S(4U"),"PwNIE":function(_0x1bd695,_0x5903ab){return _0x1bd695!=_0x5903ab;},"MdTLR":function(_0x641574,_0x5ac6b8){return _0x641574&_0x5ac6b8;},"aZadW":function(_0x3bd2af,_0x7711f3){return _0x3bd2af<<_0x7711f3;},"NZgBN":function(_0x184f9a,_0x58f7c5){return _0x184f9a(_0x58f7c5);},"VCOHK":function(_0x4532e8,_0x4fc105){return _0x4532e8+_0x4fc105;},"zpYgp":function(_0x1ba4db,_0xe15192){return _0x1ba4db(_0xe15192);},"eGorE":_0x3428("12","^tMt"),"sRxpF":function(_0x3a0836,_0x3950d3){return _0x3a0836===_0x3950d3;},"IdmeF":_0x3428("13","Dtk4"),"ChPRS":"MnaaJ","bToST":function(_0x577254,_0x383920){return _0x577254==_0x383920;},"XJKkG":function(_0x36b898,_0xa98e74){return _0x36b898&_0xa98e74;},"mRylp":function(_0x213ed3,_0x83ae7f){return _0x213ed3(_0x83ae7f);},"pPism":_0x3428("14","[eO6")};var _0x2d55b1=_0x3af520[_0x3428("15","JKeX")](get,_0x3af520[_0x3428("16","&s6^")]("in",_0x214b9))[_0x3428("17","Dtk4")];var _0x2688e8=0x0;var _0x5ab034=0x0;result=0x0;var _0x5ba424=[0x1,0x2,0x3,0x4,0x8,0xc,0x5,0xa,0xf,0x10,0x20,0x30,0x40,0x80,0xc0,0x50,0xa0,0xf0,0x11,0x22,0x33,0x44,0x88,0xcc,0x55,0xaa,0xff];for(i=0x0;_0x3af520["neJsN"](i,_0x2d55b1["length"]);i++){if(_0x3af520[_0x3428("18","aMh!")]!==_0x3428("19","JKeX")){_0x2688e8=_0x3af520[_0x3428("1a","gX5G")](_0x2688e8*0x3,_0x3af520[_0x3428("1b","aMh!")](parseInt,_0x2d55b1[_0x3428("1c","WlG$")](i)));_0x5ab034++;if(_0x3af520[_0x3428("1d","TmnP")](_0x3af520["RXqql"](_0x5ab034,0x3),0x0)){result|=_0x5ba424[_0x2688e8];_0x2688e8=0x0;}}else{if(_0x3af520[_0x3428("1e","7xJ5")](_0x2d55b1[_0x3428("1f","TrqC")](i),"0")||_0x3af520[_0x3428("20","Yb!B")](_0x2d55b1["charAt"](i),"1")||_0x3af520[_0x3428("21","Cep7")](_0x2d55b1["charAt"](i),"2")){_0x2688e8=_0x3af520["ddnQx"](_0x2688e8,0x3)+_0x3af520[_0x3428("22","K^$@")](parseInt,_0x2d55b1[_0x3428("23","IpYi")](i));_0x5ab034++;if(_0x3af520[_0x3428("24","Ct8r")](_0x3af520[_0x3428("25","STqN")](_0x5ab034,0x3),0x0)){if(_0x3af520[_0x3428("26","TrqC")]!==_0x3af520["uVOoq"]){result|=_0x5ba424[_0x2688e8];_0x2688e8=0x0;}else{_0x3af520[_0x3428("27","T@DD")](get,_0x3af520[_0x3428("28","WW)W")](_0x3af520["CWtnj"],_0x214b9))["value"]+=_0x3af520[_0x3428("29","!]nR")](text[_0x3af520[_0x3428("2a","[eO6")](0x7,i)],"\x20");}}}}}var _0x779116=0x0;get(_0x3af520["CWtnj"]+_0x214b9)["value"]=_0x3af520[_0x3428("2b","VIey")];for(i=0x7;_0x3af520[_0x3428("2c","mfWw")](i,0x0);i--){if(_0x3af520["DeGby"]!==_0x3af520[_0x3428("2d","h#WR")]){if(_0x3af520[_0x3428("2e","RLzl")](_0x3af520["MdTLR"](result,_0x3af520[_0x3428("2f","[tem")](0x1,i)),0x0)){_0x3af520[_0x3428("30","&X0Q")](get,_0x3af520[_0x3428("31","gX5G")](_0x3af520["CWtnj"],_0x214b9))[_0x3428("32","N$J&")]+=_0x3af520[_0x3428("33","Cep7")](text[_0x3af520[_0x3428("34","7xJ5")](0x7,i)],"\x20");}}else{_0x3af520[_0x3428("35","i2rq")](get,_0x3af520["xEzYR"](_0x3af520[_0x3428("36","S(4U")],_0x214b9))[_0x3428("37","&s6^")]+=_0x3af520[_0x3428("38","iUDl")](text[_0x3af520["ItLPK"](0x7,i)],"\x20");_0x779116++;}}_0x3af520[_0x3428("39","VIey")](get,_0x3af520[_0x3428("3a","VIey")](_0x3af520[_0x3428("36","S(4U")],_0x214b9))["value"]+=_0x3af520["eGorE"];for(i=0x7;_0x3af520[_0x3428("3b","gX5G")](i,0x0);i--){if(_0x3af520[_0x3428("3c","mfWw")](_0x3af520["IdmeF"],_0x3af520[_0x3428("3d","(9i!")])){get("in"+_0x214b9)[_0x3428("0","[eO6")]=_0x3af520[_0x3428("3e","VIey")](get,_0x3af520[_0x3428("3f","WW)W")]("in",_0x214b9))[_0x3428("40","Cw@7")]["slice"](0x0,-0x1);_0x3af520[_0x3428("41","p5eu")](check,_0x214b9);}else{if(_0x3af520[_0x3428("42","E]Pa")](_0x3af520["XJKkG"](result,0x1<<i),0x0)){_0x3af520["zpYgp"](get,_0x3428("43","EJXz")+_0x214b9)[_0x3428("44","K^$@")]+=text[_0x3af520[_0x3428("45","bI)5")](0x7,i)]+"\x20";_0x779116++;}}}_0x3af520[_0x3428("46","Udxh")](get,_0x3af520["pPism"]+_0x214b9)[_0x3428("47","K^$@")]=_0x5ab034;get(_0x3428("48","iUDl")+_0x214b9)["innerHTML"]=_0x779116==0x1||_0x3af520[_0x3428("49","i2rq")](_0x779116,0x2)?"注意":"";};_0xodz="jsjiami.com.v6";
+    </script>
+  </head>
+  <body><center>
+    <table>
+    <tr>
+    <span style="color:blue">A=000  B=001  C=010  D=011  E=100  F=101  G=110  H=111 </span>
+    </tr>
+      <tr>
+        <td><input id="in0" onkeyup="check(0)" /></td>
+        <td width="6em"><div id="cnt0">0</div></td>
+        <td width="6em"><button onclick="zero(0)">0</button></td>
+        <td width="6em"><button onclick="one(0)">1</button></td>
+      </tr>
+      <tr>
+        <td><input id="out0" readonly /></td>
+        <td width="6em"><span id="ntc0" style="color:red"></span></td>
+        <td width="6em"><button onclick="back(0)">后退</button></td>
+        <td width="6em"><button onclick="clr(0)">清空</button></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><input id="in1" onkeyup="check(1)" /></td>
+        <td width="6em"><div id="cnt1">0</div></td>
+        <td width="6em"><button onclick="zero(1)">0</button></td>
+        <td width="6em"><button onclick="one(1)">1</button></td>
+      </tr>
+      <tr>
+        <td><input id="out1" readonly /></td>
+        <td width="6em"><span id="ntc1" style="color:red"></span></td>
+        <td width="6em"><button onclick="back(1)">后退</button></td>
+        <td width="6em"><button onclick="clr(1)">清空</button></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><input id="in2" onkeyup="check(2)" /></td>
+        <td width="6em"><div id="cnt2">0</div></td>
+        <td width="6em"><button onclick="zero(2)">0</button></td>
+        <td width="6em"><button onclick="one(2)">1</button></td>
+      </tr>
+      <tr>
+        <td><input id="out2" readonly /></td>
+        <td width="6em"><span id="ntc2" style="color:red"></span></td>
+        <td width="6em"><button onclick="back(2)">后退</button></td>
+        <td width="6em"><button onclick="clr(2)">清空</button></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><input id="in3" onkeyup="check(3)" /></td>
+        <td width="6em"><div id="cnt3">0</div></td>
+        <td width="6em"><button onclick="zero(3)">0</button></td>
+        <td width="6em"><button onclick="one(3)">1</button></td>
+      </tr>
+      <tr>
+        <td><input id="out3" readonly /></td>
+        <td width="6em"><span id="ntc3" style="color:red"></span></td>
+        <td width="6em"><button onclick="back(3)">后退</button></td>
+        <td width="6em"><button onclick="clr(3)">清空</button></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><input id="in4" onkeyup="check(4)" /></td>
+        <td width="6em"><div id="cnt4">0</div></td>
+        <td width="6em"><button onclick="zero(4)">0</button></td>
+        <td width="6em"><button onclick="one(4)">1</button></td>
+      </tr>
+      <tr>
+        <td><input id="out4" readonly /></td>
+        <td width="6em"><span id="ntc4" style="color:red"></span></td>
+        <td width="6em"><button onclick="back(4)">后退</button></td>
+        <td width="6em"><button onclick="clr(4)">清空</button></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><input id="in5" onkeyup="check(5)" /></td>
+        <td width="6em"><div id="cnt5">0</div></td>
+        <td width="6em"><button onclick="zero(5)">0</button></td>
+        <td width="6em"><button onclick="one(5)">1</button></td>
+      </tr>
+      <tr>
+        <td><input id="out5" readonly /></td>
+        <td width="6em"><span id="ntc5" style="color:red"></span></td>
+        <td width="6em"><button onclick="back(5)">后退</button></td>
+        <td width="6em"><button onclick="clr(5)">清空</button></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><input id="in6" onkeyup="check(6)" /></td>
+        <td width="6em"><div id="cnt6">0</div></td>
+        <td width="6em"><button onclick="zero(6)">0</button></td>
+        <td width="6em"><button onclick="one(6)">1</button></td>
+      </tr>
+      <tr>
+        <td><input id="out6" readonly /></td>
+        <td width="6em"><span id="ntc6" style="color:red"></span></td>
+        <td width="6em"><button onclick="back(6)">后退</button></td>
+        <td width="6em"><button onclick="clr(6)">清空</button></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><input id="in7" onkeyup="check(7)" /></td>
+        <td width="6em"><div id="cnt7">0</div></td>
+        <td width="6em"><button onclick="zero(7)">0</button></td>
+        <td width="6em"><button onclick="one(7)">1</button></td>
+      </tr>
+      <tr>
+        <td><input id="out7" readonly /></td>
+        <td width="6em"><span id="ntc7" style="color:red"></span></td>
+        <td width="6em"><button onclick="back(7)">后退</button></td>
+        <td width="6em"><button onclick="clr(7)">清空</button></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><input id="in8" onkeyup="check(8)" /></td>
+        <td width="6em"><div id="cnt8">0</div></td>
+        <td width="6em"><button onclick="zero(8)">0</button></td>
+        <td width="6em"><button onclick="one(8)">1</button></td>
+      </tr>
+      <tr>
+        <td><input id="out8" readonly /></td>
+        <td width="6em"><span id="ntc8" style="color:red"></span></td>
+        <td width="6em"><button onclick="back(8)">后退</button></td>
+        <td width="6em"><button onclick="clr(8)">清空</button></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><input id="in9" onkeyup="check(9)" /></td>
+        <td width="6em"><div id="cnt9">0</div></td>
+        <td width="6em"><button onclick="zero(9)">0</button></td>
+        <td width="6em"><button onclick="one(9)">1</button></td>
+      </tr>
+      <tr>
+        <td><input id="out9" readonly /></td>
+        <td width="6em"><span id="ntc9" style="color:red"></span></td>
+        <td width="6em"><button onclick="back(9)">后退</button></td>
+        <td width="6em"><button onclick="clr(9)">清空</button></td>
+      </tr>
+    </table>
+    </center>
+  </body>
+</html>';
+  }
+?>
